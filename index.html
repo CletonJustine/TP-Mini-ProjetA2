@@ -20,10 +20,7 @@
 var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
-  "Paris": { "lat": 48.852969, "lon": 2.349903 },
-  "Brest": { "lat": 48.383, "lon": -4.500 },
-  "Quimper": { "lat": 48.000, "lon": -4.100 },
-  "Bayonne": { "lat": 43.500, "lon": -1.467 }
+  "Angouleme": { "lat": 45.648377, "lon": 0.1562369 },
 };
 
 window.onload = function(){
@@ -41,32 +38,38 @@ window.onload = function(){
 </head>
 
 <body>
+   
     
+    <!--Justine CLETON-->
     <div id="map">
 			<!-- Ici s'affichera la carte -->
 		</div>
     <div class="columns">
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Angouleme" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Angoulême</div>
+            <div class="card-subtitle text-gray">Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="./93px-Angouleme_cathedral_StPierre_a.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            
+            <p>Angoulême est une commune du Sud-Ouest de la France, préfecture du département de la Charente, en région Nouvelle-Aquitaine.<br/>
+
+Ses habitants sont appelés les Angoumoisins et ses habitantes les Angoumoisines.<br/>
+
+Établie sur un éperon dominant un méandre de la Charente et les confluents de celle-ci avec la Touvre et l'Anguienne, la ville est surnommée le balcon du Sud-Ouest. La commune compte moins de 50 000 habitants (41 970 en 2013), mais elle est le centre d'une agglomération rassemblant près de 110 000 habitants (107 652 en 2012, au 60e rang des plus grandes agglomérations en France) au sein d'une conurbation urbaine qui s'étend sur une quinzaine de kilomètres d'est en ouest2. Au 1er janvier 2017, la communauté d'agglomération d'Angoulême, appelée Grand Angoulême, comporte désormais plus de 140 000 habitants.</p>
           </div>
         </div>
       </div>
         
         
-<!--Justine CLETON-->
+<!--A changer-->
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Brest" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
